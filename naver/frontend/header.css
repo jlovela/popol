@@ -102,10 +102,7 @@ header > nav {
   /* <ul>하위 7번째 <li>까지 각각 내부의 <a> 태그 접근 */
   color: #03cf5d;
 }
-.nav_items ul > li > a {
-  text-decoration: none;
-  cursor: pointer;
-}
+
 main {
   background: #f2f4f7;
   min-height: 700px;
@@ -117,4 +114,13 @@ footer {
 /* 재사용 클래스 */
 .color_naver {
   color: #03cf5d;
+}
+.navigation-item {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navigation-link {
+  text-decoration: none;
+  color: black;
 }
